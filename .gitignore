@@ -1,0 +1,55 @@
+# =========================
+# Python Virtual Environment
+# =========================
+.venv/
+__pycache__/
+*.pyc
+
+# =========================
+# Zephyr Workspace (tooling)
+# =========================
+zephyrproject/
+.modules/
+.west/
+
+# =========================
+# Build Artifacts
+# =========================
+**/build/*
+build-*/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+*.o
+*.a
+*.elf
+*.bin
+*.hex
+*.map
+*.log
+
+# =========================
+# West Build System
+# =========================
+.west/
+west.yml.lock
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Misc
+# =========================
+*.bak
+*.tmp
